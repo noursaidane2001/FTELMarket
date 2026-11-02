@@ -1,0 +1,55 @@
+# FTELMarket – .NET CRUD API
+
+## 📌 About the Project
+
+FTELMarket is a RESTful API developed using C# and ASP.NET Core as part of a practical project focused on .NET installation, API development, and CRUD operations.
+
+The application simulates a marketplace where users can manage a product catalog organized by categories.
+
+## 🚀 Features
+
+- **Create:** Add new products to the catalog.
+- **Read:** Retrieve products and their categories.
+- **Update:** Modify existing product information.
+- **Delete:** Remove products from the catalog.
+- **Category Management:** Organize products into categories.
+- **Database Persistence:** Store data using Entity Framework Core and SQL Server.
+- **Code First:** Create and update the database schema using Entity Framework migrations.
+
+## 🛠️ Technologies Used
+
+- C#
+- ASP.NET Core Web API
+- .NET 9 / .NET 10
+- Entity Framework Core
+- SQL Server
+- Docker Desktop
+- Visual Studio 2022 / 2026
+- DBeaver (optional)
+
+## 🗄️ Data Model
+
+**Product**
+- Name
+- Description (optional)
+- Price
+- Stock Quantity
+- Creation Date
+- Category
+
+**Category**
+- Name
+- Products (one-to-many relationship)
+
+## 🎯 Project Objectives
+
+- Understand the structure of a .NET solution and project.
+- Develop REST API endpoints using controllers.
+- Implement CRUD operations.
+- Configure Entity Framework Core.
+- Apply the Code First approach and database migrations.
+- Connect the API to a database for persistent data storage.
+
+## 👨‍💻 Project Context
+
+Academic practical work focused on learning ASP.NET Core Web API development and database integration.
